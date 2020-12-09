@@ -25,12 +25,13 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li`
   display: inline-block;
-  padding: 0 1rem;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  margin: 0 0 0 1rem;
 `
 
 export const NavLink = styled(Link)`
   text-decoration: none;
   color: #ffffff;
+  display: inline-block;
+  border: 1px solid #d4b47c;
+  padding: 18px 24px;
 `

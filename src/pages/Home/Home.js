@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Hero />
       <Container>
-        <Title>Latest Bastards</Title>
+        <Title>Newest Bastards</Title>
         <BastardList items={bastards} />
       </Container>
     </div>

@@ -14,12 +14,12 @@ export const Card = styled.div`
 `
 
 export const Name = styled.h2`
-  font-size: 2em;
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
 `
 
 export const JobTitle = styled.h3`
   color: #aaa;
-  font-size: 1.5em;
   margin-bottom: 10px;
 `
 
