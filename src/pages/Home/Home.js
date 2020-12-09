@@ -1,17 +1,21 @@
-import React from "react"
+import React, { useContext } from "react"
 
 import { Hero, BastardList } from "components"
-import data from "data/data"
+import { BastardContext } from "store/Store"
 import { Container, Title } from "./Home.style"
 
-const Home = () => (
-  <div>
-    <Hero />
-    <Container>
-      <Title>Latest Bastards</Title>
-      <BastardList items={data} />
-    </Container>
-  </div>
-)
+const Home = () => {
+  const [bastards] = useContext(BastardContext)
+
+  return (
+    <div>
+      <Hero />
+      <Container>
+        <Title>Latest Bastards</Title>
+        <BastardList items={bastards} />
+      </Container>
+    </div>
+  )
+}
 
 export default Home
