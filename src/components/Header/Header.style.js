@@ -5,7 +5,6 @@ export const SiteHeader = styled.header`
   background-color: #000000;
   color: #ffffff;
   padding: 24px 48px;
-  min-height: 60vh;
 `
 
 export const NavBar = styled.div`
