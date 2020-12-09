@@ -1,11 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import { Reset } from "styled-reset"
 
+import GlobalStyle from "theme/globalStyles"
 import App from "./app/App"
 import reportWebVitals from "./reportWebVitals"
 
 ReactDOM.render(
   <React.StrictMode>
+    <Reset />
+    <GlobalStyle />
     <App />
   </React.StrictMode>,
   document.getElementById("root")
