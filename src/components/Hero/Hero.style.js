@@ -15,7 +15,7 @@ export const Container = styled.div`
   background-color: #000000;
   padding: 20px;
   color: #ffffff;
-  min-height: 30vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
