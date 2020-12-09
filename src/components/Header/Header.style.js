@@ -4,6 +4,10 @@ export const SiteHeader = styled.header`
   background-color: #000000;
   color: #ffffff;
   padding: 24px 48px;
+  min-height: 60vh;
+`
+
+export const NavBar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +25,9 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li`
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 `
 
 export const NavLink = styled.a`
