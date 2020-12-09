@@ -17,10 +17,10 @@ const Header = () => (
       <Nav>
         <NavList>
           <NavItem>
-            <NavLink href="/">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/">Meet the Bastards</NavLink>
+            <NavLink to="/meet-the-bastards">Meet the Bastards</NavLink>
           </NavItem>
         </NavList>
       </Nav>

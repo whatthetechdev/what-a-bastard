@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
 export const SiteHeader = styled.header`
   background-color: #000000;
@@ -30,7 +31,7 @@ export const NavItem = styled.li`
   text-transform: uppercase;
 `
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   text-decoration: none;
   color: #ffffff;
 `
