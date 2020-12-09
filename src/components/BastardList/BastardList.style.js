@@ -13,10 +13,16 @@ export const Card = styled.div`
   padding: 20px;
 `
 
-export const Title = styled.h2`
+export const Name = styled.h2`
   font-size: 2em;
 `
 
-export const SubTitle = styled.h3`
+export const JobTitle = styled.h3`
+  color: #aaa;
   font-size: 1.5em;
+  margin-bottom: 10px;
+`
+
+export const Image = styled.img`
+  width: 100%;
 `

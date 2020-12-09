@@ -1,6 +1,7 @@
 import React from "react"
 
-import { Hero, CardList } from "components"
+import { Hero, BastardList } from "components"
+import data from "data/data"
 import { Container, Title } from "./Home.style"
 
 const Home = () => (
@@ -8,13 +9,7 @@ const Home = () => (
     <Hero />
     <Container>
       <Title>Latest Bastards</Title>
-      <CardList
-        items={[
-          { id: 1, title: "Edward" },
-          { id: 2, title: "Boy" },
-          { id: 3, title: "Stijn" },
-        ]}
-      />
+      <BastardList items={data} />
     </Container>
   </div>
 )
