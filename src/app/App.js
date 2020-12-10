@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import { Header } from "components"
-import { Home, MeetTheBastards } from "pages"
+import { Home, About } from "pages"
 import Store from "store/Store"
 import AppContainer from "./App.style"
 
@@ -13,7 +13,7 @@ const App = () => (
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/meet-the-bastards" component={MeetTheBastards} />
+          <Route path="/about" component={About} />
         </Switch>
       </AppContainer>
     </Store>

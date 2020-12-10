@@ -13,8 +13,8 @@ export default [
   },
   {
     id: 3,
-    name: "Evert",
-    jobTitle: "Boss Bastard",
+    name: "Chuck",
+    jobTitle: "Total Bastard",
     imageUrl: "https://placebeard.it/422x302",
   },
 ]
