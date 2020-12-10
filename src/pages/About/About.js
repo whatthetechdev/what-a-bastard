@@ -1,15 +1,8 @@
 import React, { useContext } from "react"
 
-import { Hero } from "components"
+import { Hero, Card } from "components"
 import { BastardContext } from "store/Store"
-import {
-  Container,
-  Title,
-  LeftColumn,
-  RightColumn,
-  BastardName,
-  BastardImage,
-} from "./About.style"
+import { Container, Title, LeftColumn, RightColumn } from "./About.style"
 
 const About = () => {
   const [bastards] = useContext(BastardContext)
@@ -50,8 +43,7 @@ const About = () => {
         </LeftColumn>
         <RightColumn>
           <Title>Featured Bastard</Title>
-          <BastardName>{featuredBastard.name}</BastardName>
-          <BastardImage src={featuredBastard.imageUrl} alt="" />
+          <Card item={featuredBastard} />
         </RightColumn>
       </Container>
     </div>

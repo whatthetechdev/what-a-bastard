@@ -1,16 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import { Container, Card, Name, JobTitle, Image } from "./BastardList.style"
+import { Card } from "components"
+import Container from "./BastardList.style"
 
 const BastardList = ({ items }) => (
   <Container>
     {items.map((item) => (
-      <Card key={item.id}>
-        <Name>{item.name}</Name>
-        <JobTitle>{item.jobTitle}</JobTitle>
-        <Image src={item.imageUrl} alt="" />
-      </Card>
+      <Card item={item} key={item.id} />
     ))}
   </Container>
 )
