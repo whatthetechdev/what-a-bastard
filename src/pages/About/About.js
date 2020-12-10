@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 
-import { Hero, Card } from "components"
+import { Hero, Card, WindowWidth } from "components"
 import { BastardContext } from "store/Store"
 import { Container, Title, LeftColumn, RightColumn } from "./About.style"
 
@@ -44,6 +44,7 @@ const About = () => {
         <RightColumn>
           <Title>Featured Bastard</Title>
           <Card item={featuredBastard} />
+          <WindowWidth />
         </RightColumn>
       </Container>
     </div>

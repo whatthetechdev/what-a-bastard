@@ -7,6 +7,7 @@ export const Container = styled.div`
   padding: 20px;
   min-width: 420px;
   min-height: 360px;
+  margin-bottom: 2rem;
 `
 
 export const TitleBar = styled.div`
