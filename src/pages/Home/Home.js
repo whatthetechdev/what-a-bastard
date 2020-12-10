@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div>
-      <Hero />
+      <Hero title="Welcome to an Epic Bastard Demo" />
       <Container>
         <Title>Meet the Bastards</Title>
         <BastardList items={bastards} />

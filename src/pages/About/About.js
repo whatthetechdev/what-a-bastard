@@ -5,7 +5,7 @@ import { Container, Title } from "./About.style"
 
 const About = () => (
   <div>
-    <Hero />
+    <Hero title="Just another page with Rick & Morty Ipsum" />
     <Container>
       <Title>About the Software Bastards</Title>
       <p>
