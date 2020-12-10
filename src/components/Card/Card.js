@@ -1,11 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import { Container, Name, JobTitle, Image } from "./Card.style"
+import { Container, TitleBar, Name, JobTitle, Image } from "./Card.style"
+import ClapCounter from "../ClapCounter/ClapCounter"
 
 const Card = ({ item }) => (
   <Container key={item.id}>
-    <Name>{item.name}</Name>
+    <TitleBar>
+      <Name>{item.name}</Name>
+      <ClapCounter />
+    </TitleBar>
     <JobTitle>{item.jobTitle}</JobTitle>
     <Image src={item.imageUrl} alt="" />
   </Container>

@@ -1,11 +1,17 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+  position: relative;
   background-color: #000000;
   color: #ffffff;
   padding: 20px;
   min-width: 420px;
   min-height: 360px;
+`
+
+export const TitleBar = styled.div`
+  display: flex;
+  justify-content: space-between;
 `
 
 export const Name = styled.h2`
